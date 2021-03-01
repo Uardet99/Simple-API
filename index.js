@@ -10,7 +10,7 @@ app.get('/date', (request, response) => {
     const date = new Date();
     response.send(date);
 });
-app.get('/hi', (request, response) => {
+app.get('/bye', (request, response) => {
     const message = 'Hello world';
     response.send(message);
 });
